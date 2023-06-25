@@ -1,0 +1,279 @@
+@import url("./fonts.css");
+
+/* HEADER SECTION */
+.header {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+}
+
+.header_burger {
+    position: relative;
+    cursor: pointer;
+}
+
+.header_burger_btn {
+    width: 27px;
+    height: 3px;
+    background-color: #FFFF;
+    border-radius: 5px;
+}
+
+.header_burger_btn:before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 3px;
+    top: 30px;
+    background-color: #FFFF;
+    border-radius: 5px;
+}
+
+.header_burger_btn:after {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 3px;
+    bottom: 30px;
+    background-color: #FFFF;
+    border-radius: 5px;
+}
+
+.header_number_img {
+    cursor: pointer;
+}
+
+.header_number .phone-number {
+    position: absolute;
+    transform: scale(0);
+    width: 200px;
+    padding: 0 50px 0 0 ;
+    color: white;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header_number:hover .phone-number {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* HEADER SECTION */
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    z-index: -1;
+    background: url("../images/heroBackground.png") center/cover;
+    height: 100vh;
+    padding: 50px 0;
+}
+
+.hero_title {
+    position: relative;
+    color: #FFF;
+    max-width: 459px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1.5px;
+}
+
+.hero_title:before {
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    width: 55px;
+    height: 2px;
+    top: -24px;
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+
+/* ABOUT SECTION */
+.about {
+    padding: 50px 0;
+}
+
+.about_general_title {
+    max-width: 324px;
+    color: #000;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    padding: 0 0 50px 0;
+}
+
+.about_title_color {
+    color: #00AAEF;
+}
+
+.about_description {
+    max-width: 498px;
+}
+
+.about_description_title {
+    font-weight: 700;
+    line-height: 30px;
+    color: #00AAEF;
+}
+
+.about_description_info {
+    line-height: 27px;
+    color: #3E3E3E;
+}
+
+.about_description_afterword {
+    line-height: 27px;
+    font-size: 16px;
+}
+
+/* ABOUT SECTION */
+
+/* GALLERY SECTION */
+.gallery {
+    padding: 50px 0;
+}
+
+.gallery_general {
+    padding: 0 0 50px 0;
+}
+
+.gallery_general_title {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+}
+
+.gallery_imgs {
+    height: 100%;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery_desc {
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 24px 0;
+}
+
+.gallery_desc_link {
+    color: #00AAEF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.gallery_btn {
+    padding: 21px 47px;
+    border-radius: 10px;
+}
+
+/* GALLERY SECTION */
+
+/* REVIEWS SECTION */
+.reviews {
+    padding: 50px 0;
+}
+
+.reviews_general {
+    padding: 0 0 50px 0;
+}
+
+.reviews_general_title {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    width: 33%;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #0075FF;
+}
+
+.card-text-sup {
+    color: #9FADC2;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.card-text {
+    color: #3E3E3E;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+/* REVIEWS SECTION */
+/* CONTACTS SECTION */
+.contacts {
+    padding: 50px 0;
+}
+
+.contacts_general {
+    padding: 0 0 50px 0;
+}
+
+.contacts_general_title {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+}
+
+.contacts_variants {
+    color: #9FADC2;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.contacts_link {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 8px;
+    background: #F6F8FF;
+    padding: 14px 17px;
+    cursor: pointer;
+}
+
+.btn {
+    transition: .2s;
+}
+
+/* CONTACTS SECTION */
+/* FOOTER SECTION */
+.footer {
+    background: url("../images/footer.png") center/cover;
+    height: 60vh;
+    padding: 60px 0;
+}
+
+/* FOOTER SECTION */
