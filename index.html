@@ -20,11 +20,21 @@
         <div class="row">
           <div class="col-12">
             <div class="d-flex justify-content-between">
-              <div class="header_burger d-flex align-items-center">
-                <div class="header_burger_btn"></div>
+              <div class="d-flex align-items-center">
+                <input type="checkbox" id="burger" hidden />
+                <label for="burger" class="header_burger__btn"></label>
+                <nav class="header_burger__nav d-flex flex-column">
+                  <a href="#" class="header_burger_link">Home</a>
+                  <a href="#" class="header_burger_link">About us</a>
+                  <a href="#" class="header_burger_link">Gallery</a>
+                  <a href="#" class="header_burger_link">Testimonials</a>
+                  <a href="#" class="header_burger_link">contacts</a>
+                  <a href="#" class="header_burger_number display-7">+1 234 555-55-55</a>
+                  <a href="#" class="header_burger_link">Call to order</a>
+                </nav>
               </div>
               <div class="d-flex align-items-center">
-                <img src="./assets/images/logo.png" alt="logo" />
+                <img src="./assets/images/logo.png" class="logo" alt="logo" />
               </div>
               <div class="header_number d-flex align-items-center flex-row-reverse">
                 <img src="./assets/images/phone.png" class="header_number_img" alt="phone" />
